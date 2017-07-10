@@ -12,8 +12,6 @@ class User extends React.Component {
         .then(response => response.json())
         .then(
             user => {
-                // How can we use `this` inside a callback without binding it??
-                // Make sure you understand this fundamental difference with arrow functions!!!
                 this.setState({
                     user: user
                 });
