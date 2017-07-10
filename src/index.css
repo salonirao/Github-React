@@ -1,0 +1,94 @@
+body {
+    margin: 20px;
+    background-color: #F8F8F8;
+}
+
+
+
+
+.main-header h1 {
+    margin: 10px;
+    font-weight: 300;
+}
+
+.main-header a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding:17em;
+}
+
+.main-content {
+    padding: 15rem;
+}
+
+
+
+
+
+.search-page {
+    text-align: center;
+}
+
+.search-page__input {
+    border: 1px solid black;
+    padding: 0.2em;
+    margin-right: 1em;
+    font-size: 20px;
+}
+.search-page__button {
+    border: 1px black;
+    background-color: #909090;
+    font-size: 20px;
+}
+
+
+
+
+
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    marign-top:20px;
+}
+
+.user-info__avatar {
+    height:50px;
+    width:50px;
+}
+
+
+.user-info__title {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.user-info__title, .user-info__bio, .user-info-email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:1px;
+    text-decoration: none;
+    color: black;
+}
+
+.user-info__stats {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.user-info__stats a {
+    color: #000;
+    text-decoration: none;
+    padding:30px;
+    margin: 100px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.user-info__stat {
+    flex: 1;
+}
+
+
